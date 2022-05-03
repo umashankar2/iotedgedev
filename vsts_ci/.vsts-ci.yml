@@ -12,7 +12,7 @@ jobs:
       displayName: 'Build'
       inputs:
         targetType: 'inline'
-        script: 'write-host "I am windows"'
+        script: 'write-host "I am windows here"'
 
   - job: Ubuntu18
     pool:
